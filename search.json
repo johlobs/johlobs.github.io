@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "tools/sta240.html",
+    "href": "tools/sta240.html",
+    "title": "STA240 — Advanced Statistical Methods",
+    "section": "",
+    "text": "Open tool"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "These tools are developed for statistics courses at Gothenburg University. Each tool is a self-contained interactive site built with Quarto and WebR, allowing students to run R code directly in the browser without any installation.\nContact: Lovisa Johansson · Gothenburg University"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pedagogical Tools",
+    "section": "",
+    "text": "STA240 — Advanced Statistical Methods\n\n\n\nMixed Models\n\nMultinomial Regression\n\nOrdinal Regression\n\nWebR\n\n\n\nInteractive case studies covering mixed models, multinomial regression, and ordinal regression. Run live R code directly in the browser — no installation needed.\n\n\n\n\n\nNo matching items"
+  }
+]
