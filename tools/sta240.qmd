@@ -6,4 +6,6 @@ image: ../images/sta240.png
 categories: [Mixed Models, Multinomial Regression, Ordinal Regression, WebR]
 ---
 
+*Inspired by the course Advanced Statistical Methods at the Department of Statistics, Gothenburg University.*
+
 [Open tool](https://johlobs.github.io/STA240-Advanced-Statistical-Methods-/){.btn .btn-primary target="_blank"}

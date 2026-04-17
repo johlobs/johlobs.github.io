@@ -4,4 +4,6 @@ title: "About"
 
 These tools are developed for statistics courses at Gothenburg University. Each tool is a self-contained interactive site built with [Quarto](https://quarto.org) and [WebR](https://docs.r-wasm.org/webr/latest/), allowing students to run R code directly in the browser without any installation.
 
+Inspired by courses at the Department of Statistics, Gothenburg University. Content developed by Lovisa Johansson using AI-assisted authoring.
+
 **Contact:** Lovisa Johansson · Gothenburg University
