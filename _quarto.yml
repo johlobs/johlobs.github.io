@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Statistical Learning Tools"
+  description: "Interactive pedagogical tools for statistics courses at Gothenburg University"
+  page-footer: "Built with [Quarto](https://quarto.org) · Gothenburg University"
+  navbar:
+    left:
+      - text: "Tools"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+
+format:
+  html:
+    theme: flatly
+    css: custom.css
+    toc: false

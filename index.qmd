@@ -1,0 +1,12 @@
+---
+title: "Pedagogical Tools"
+subtitle: "Interactive learning resources for statistics courses at Gothenburg University"
+listing:
+  contents: tools
+  type: grid
+  image-height: 180px
+  fields: [image, title, description, categories]
+  categories: true
+  sort: "date desc"
+page-layout: full
+---
