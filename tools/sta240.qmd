@@ -2,6 +2,7 @@
 title: "STA240 — Advanced Statistical Methods"
 description: "Interactive case studies covering mixed models, multinomial regression, and ordinal regression. Run live R code directly in the browser — no installation needed."
 date: 2026-04-17
+image: ../images/sta240.png
 categories: [Mixed Models, Multinomial Regression, Ordinal Regression, WebR]
 ---
 
