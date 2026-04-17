@@ -11,13 +11,13 @@
     "href": "tools/sta240.html",
     "title": "STA240 — Advanced Statistical Methods",
     "section": "",
-    "text": "Open tool"
+    "text": "Inspired by the course Advanced Statistical Methods at the Department of Statistics, Gothenburg University.\nOpen tool"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "These tools are developed for statistics courses at Gothenburg University. Each tool is a self-contained interactive site built with Quarto and WebR, allowing students to run R code directly in the browser without any installation.\nContact: Lovisa Johansson · Gothenburg University"
+    "text": "These tools are developed for statistics courses at Gothenburg University. Each tool is a self-contained interactive site built with Quarto and WebR, allowing students to run R code directly in the browser without any installation.\nInspired by courses at the Department of Statistics, Gothenburg University. Content developed by Lovisa Johansson using AI-assisted authoring.\nContact: Lovisa Johansson · Gothenburg University"
   }
 ]
