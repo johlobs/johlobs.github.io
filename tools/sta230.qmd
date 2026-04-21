@@ -1,0 +1,11 @@
+---
+title: "STA230 — Statistical Learning"
+description: "Classification, regression regularisation, and unsupervised learning. Interactive concept blocks, quizzes, and live R code — no installation needed."
+date: 2026-04-21
+image: ../images/sta230.png
+categories: [Classification, LASSO, Random Forests, XGBoost, PCA, WebR]
+---
+
+*Inspired by the course Statistical Learning at the Department of Statistics, Gothenburg University.*
+
+[Open tool](https://johlobs.github.io/STA230-App/){.btn .btn-primary target="_blank"}
