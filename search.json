@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pedagogical Tools",
-    "section": "",
-    "text": "STA240 — Advanced Statistical Methods\n\n\n\nMixed Models\n\nMultinomial Regression\n\nOrdinal Regression\n\nWebR\n\n\n\nInteractive case studies covering mixed models, multinomial regression, and ordinal regression. Run live R code directly in the browser — no installation needed.\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "tools/sta240.html",
     "href": "tools/sta240.html",
     "title": "STA240 — Advanced Statistical Methods",
@@ -14,10 +7,24 @@
     "text": "Inspired by the course Advanced Statistical Methods at the Department of Statistics, Gothenburg University.\nOpen tool"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pedagogical Tools",
+    "section": "",
+    "text": "STA230 — Statistical Learning\n\n\n\nClassification\n\nLASSO\n\nRandom Forests\n\nXGBoost\n\nPCA\n\nWebR\n\n\n\nClassification, regression regularisation, and unsupervised learning. Interactive concept blocks, quizzes, and live R code — no installation needed.\n\n\n\n\n\n\n\n\n\n\n\n\nSTA240 — Advanced Statistical Methods\n\n\n\nMixed Models\n\nMultinomial Regression\n\nOrdinal Regression\n\nWebR\n\n\n\nInteractive case studies covering mixed models, multinomial regression, and ordinal regression. Run live R code directly in the browser — no installation needed.\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "These tools are developed for statistics courses at Gothenburg University. Each tool is a self-contained interactive site built with Quarto and WebR, allowing students to run R code directly in the browser without any installation.\nInspired by courses at the Department of Statistics, Gothenburg University. Content developed by Lovisa Johansson using AI-assisted authoring.\nContact: Lovisa Johansson · Gothenburg University"
+  },
+  {
+    "objectID": "tools/sta230.html",
+    "href": "tools/sta230.html",
+    "title": "STA230 — Statistical Learning",
+    "section": "",
+    "text": "Inspired by the course Statistical Learning at the Department of Statistics, Gothenburg University.\nOpen tool"
   }
 ]
