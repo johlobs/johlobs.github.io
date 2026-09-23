@@ -1,0 +1,11 @@
+---
+title: "STA520 — Molecular Epidemiology"
+description: "From DNA and mutations through GWAS and Mendelian randomization to omics and proteomics. Exam-flagged topics, a progress dashboard, randomised calculation drills (Benjamini–Hochberg, Hardy–Weinberg, MR) and live R code in the browser."
+date: 2026-09-23
+image: ../images/sta520.png
+categories: [Genetics, GWAS, Mendelian Randomization, Multiple Testing, Proteomics, WebR]
+---
+
+*Inspired by the course Molecular Epidemiology at Sahlgrenska Academy, Gothenburg University.*
+
+[Open tool](https://johlobs.github.io/STA520-Molecular-Epidemiology/){.btn .btn-primary target="_blank"}
