@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6b423f165eeea3787de40cb4f8e821c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-65ab6f6afcc98c2005f3bec1c5e98b7d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -172,7 +175,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q2xhc3NpZmljYXRpb24=">Classification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TEFTU08=">LASSO <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWl4ZWQlMjBNb2RlbHM=">Mixed Models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TXVsdGlub21pYWwlMjBSZWdyZXNzaW9u">Multinomial Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3JkaW5hbCUyMFJlZ3Jlc3Npb24=">Ordinal Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UENB">PCA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmFuZG9tJTIwRm9yZXN0cw==">Random Forests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2ViUg==">WebR <span class="quarto-category-count">(2)</span></div><div class="category" data-category="WEdCb29zdA==">XGBoost <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q2xhc3NpZmljYXRpb24=">Classification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXRpY3M=">Genetics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R1dBUw==">GWAS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TEFTU08=">LASSO <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVuZGVsaWFuJTIwUmFuZG9taXphdGlvbg==">Mendelian Randomization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWl4ZWQlMjBNb2RlbHM=">Mixed Models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TXVsdGlub21pYWwlMjBSZWdyZXNzaW9u">Multinomial Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TXVsdGlwbGUlMjBUZXN0aW5n">Multiple Testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3JkaW5hbCUyMFJlZ3Jlc3Npb24=">Ordinal Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UENB">PCA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvdGVvbWljcw==">Proteomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmFuZG9tJTIwRm9yZXN0cw==">Random Forests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2ViUg==">WebR <span class="quarto-category-count">(3)</span></div><div class="category" data-category="WEdCb29zdA==">XGBoost <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -202,7 +205,38 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Q2xhc3NpZmljYXRpb24lMkNMQVNTTyUyQ1JhbmRvbSUyMEZvcmVzdHMlMkNYR0Jvb3N0JTJDUENBJTJDV2ViUg==" data-listing-date-sort="1776722400000" data-listing-file-modified-sort="1776765479109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<div class="g-col-1" data-index="0" data-categories="R2VuZXRpY3MlMkNHV0FTJTJDTWVuZGVsaWFuJTIwUmFuZG9taXphdGlvbiUyQ011bHRpcGxlJTIwVGVzdGluZyUyQ1Byb3Rlb21pY3MlMkNXZWJS" data-listing-date-sort="1790121600000" data-listing-file-modified-sort="1790153827602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<a href="./tools/sta520.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/sta520.png" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+STA520 — Molecular Epidemiology
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXRpY3M='); return false;">Genetics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1dBUw=='); return false;">GWAS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVuZGVsaWFuJTIwUmFuZG9taXphdGlvbg=='); return false;">Mendelian Randomization</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TXVsdGlwbGUlMjBUZXN0aW5n'); return false;">Multiple Testing</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvdGVvbWljcw=='); return false;">Proteomics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V2ViUg=='); return false;">WebR</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>From DNA and mutations through GWAS and Mendelian randomization to omics and proteomics. Exam-flagged topics, a progress dashboard, randomised calculation drills…</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Q2xhc3NpZmljYXRpb24lMkNMQVNTTyUyQ1JhbmRvbSUyMEZvcmVzdHMlMkNYR0Jvb3N0JTJDUENBJTJDV2ViUg==" data-listing-date-sort="1776729600000" data-listing-file-modified-sort="1790153827601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
 <a href="./tools/sta230.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -233,7 +267,7 @@ STA230 — Statistical Learning
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="TWl4ZWQlMjBNb2RlbHMlMkNNdWx0aW5vbWlhbCUyMFJlZ3Jlc3Npb24lMkNPcmRpbmFsJTIwUmVncmVzc2lvbiUyQ1dlYlI=" data-listing-date-sort="1776376800000" data-listing-file-modified-sort="1776435275987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="g-col-1" data-index="2" data-categories="TWl4ZWQlMjBNb2RlbHMlMkNNdWx0aW5vbWlhbCUyMFJlZ3Jlc3Npb24lMkNPcmRpbmFsJTIwUmVncmVzc2lvbiUyQ1dlYlI=" data-listing-date-sort="1776384000000" data-listing-file-modified-sort="1790153827602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
 <a href="./tools/sta240.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">

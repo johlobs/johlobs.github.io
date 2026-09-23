@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://johlobs.github.io/tools/sta240.html</loc>
-    <lastmod>2026-04-17T14:14:35.987Z</lastmod>
+    <loc>https://johlobs.github.io/about.html</loc>
+    <lastmod>2026-09-23T08:57:07.600Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johlobs.github.io/tools/sta520.html</loc>
+    <lastmod>2026-09-23T08:57:07.602Z</lastmod>
   </url>
   <url>
     <loc>https://johlobs.github.io/index.html</loc>
-    <lastmod>2026-04-17T14:01:40.979Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johlobs.github.io/about.html</loc>
-    <lastmod>2026-04-17T14:14:27.513Z</lastmod>
+    <lastmod>2026-09-23T08:57:07.601Z</lastmod>
   </url>
   <url>
     <loc>https://johlobs.github.io/tools/sta230.html</loc>
-    <lastmod>2026-04-21T09:57:59.109Z</lastmod>
+    <lastmod>2026-09-23T08:57:07.601Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johlobs.github.io/tools/sta240.html</loc>
+    <lastmod>2026-09-23T08:57:07.602Z</lastmod>
   </url>
 </urlset>
