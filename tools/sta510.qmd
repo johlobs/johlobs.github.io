@@ -1,0 +1,11 @@
+---
+title: "STA510 — Bayesian Methods"
+description: "Priors, conjugate updating, MCMC and brms, posterior predictive checks, LOO and stacking, hierarchical models and the Bayesian workflow. Browser exercises, brms tasks with tested solutions, and a step-by-step guide for a GLMM project."
+date: 2026-09-24
+image: ../images/sta510.png
+categories: [Bayesian Statistics, MCMC, brms, Hierarchical Models, GLMM, WebR]
+---
+
+*Inspired by the course Bayesian Methods at Sahlgrenska Academy, Gothenburg University.*
+
+[Open tool](https://johlobs.github.io/STA510-Bayesian-Methods/){.btn .btn-primary target="_blank"}
