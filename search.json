@@ -7,18 +7,11 @@
     "text": "These tools are developed for statistics courses at Gothenburg University. Each tool is a self-contained interactive site built with Quarto and WebR, allowing students to run R code directly in the browser without any installation.\nInspired by courses at the Department of Statistics, Gothenburg University. Content developed by Lovisa Johansson using AI-assisted authoring.\nContact: Lovisa Johansson · Gothenburg University"
   },
   {
-    "objectID": "tools/sta520.html",
-    "href": "tools/sta520.html",
-    "title": "STA520 — Molecular Epidemiology",
+    "objectID": "tools/sta510.html",
+    "href": "tools/sta510.html",
+    "title": "STA510 — Bayesian Methods",
     "section": "",
-    "text": "Inspired by the course Molecular Epidemiology at Sahlgrenska Academy, Gothenburg University.\nOpen tool"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pedagogical Tools",
-    "section": "",
-    "text": "STA520 — Molecular Epidemiology\n\n\n\nGenetics\n\nGWAS\n\nMendelian Randomization\n\nMultiple Testing\n\nProteomics\n\nWebR\n\n\n\nFrom DNA and mutations through GWAS and Mendelian randomization to omics and proteomics. Exam-flagged topics, a progress dashboard, randomised calculation drills…\n\n\n\n\n\n\n\n\n\n\n\n\nSTA230 — Statistical Learning\n\n\n\nClassification\n\nLASSO\n\nRandom Forests\n\nXGBoost\n\nPCA\n\nWebR\n\n\n\nClassification, regression regularisation, and unsupervised learning. Interactive concept blocks, quizzes, and live R code — no installation needed.\n\n\n\n\n\n\n\n\n\n\n\n\nSTA240 — Advanced Statistical Methods\n\n\n\nMixed Models\n\nMultinomial Regression\n\nOrdinal Regression\n\nWebR\n\n\n\nInteractive case studies covering mixed models, multinomial regression, and ordinal regression. Run live R code directly in the browser — no installation needed.\n\n\n\n\n\nNo matching items"
+    "text": "Inspired by the course Bayesian Methods at Sahlgrenska Academy, Gothenburg University.\nOpen tool"
   },
   {
     "objectID": "tools/sta230.html",
@@ -28,10 +21,24 @@
     "text": "Inspired by the course Statistical Learning at the Department of Statistics, Gothenburg University.\nOpen tool"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pedagogical Tools",
+    "section": "",
+    "text": "STA510 — Bayesian Methods\n\n\n\nBayesian Statistics\n\nMCMC\n\nbrms\n\nHierarchical Models\n\nGLMM\n\nWebR\n\n\n\nPriors, conjugate updating, MCMC and brms, posterior predictive checks, LOO and stacking, hierarchical models and the Bayesian workflow. Browser exercises, brms tasks with…\n\n\n\n\n\n\n\n\n\n\n\n\nSTA520 — Molecular Epidemiology\n\n\n\nGenetics\n\nGWAS\n\nMendelian Randomization\n\nMultiple Testing\n\nProteomics\n\nWebR\n\n\n\nFrom DNA and mutations through GWAS and Mendelian randomization to omics and proteomics. Exam-flagged topics, a progress dashboard, randomised calculation drills…\n\n\n\n\n\n\n\n\n\n\n\n\nSTA230 — Statistical Learning\n\n\n\nClassification\n\nLASSO\n\nRandom Forests\n\nXGBoost\n\nPCA\n\nWebR\n\n\n\nClassification, regression regularisation, and unsupervised learning. Interactive concept blocks, quizzes, and live R code — no installation needed.\n\n\n\n\n\n\n\n\n\n\n\n\nSTA240 — Advanced Statistical Methods\n\n\n\nMixed Models\n\nMultinomial Regression\n\nOrdinal Regression\n\nWebR\n\n\n\nInteractive case studies covering mixed models, multinomial regression, and ordinal regression. Run live R code directly in the browser — no installation needed.\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "tools/sta240.html",
     "href": "tools/sta240.html",
     "title": "STA240 — Advanced Statistical Methods",
     "section": "",
     "text": "Inspired by the course Advanced Statistical Methods at the Department of Statistics, Gothenburg University.\nOpen tool"
+  },
+  {
+    "objectID": "tools/sta520.html",
+    "href": "tools/sta520.html",
+    "title": "STA520 — Molecular Epidemiology",
+    "section": "",
+    "text": "Inspired by the course Molecular Epidemiology at Sahlgrenska Academy, Gothenburg University.\nOpen tool"
   }
 ]
