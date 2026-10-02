@@ -1,0 +1,11 @@
+---
+title: "STK120 — Regressionsanalys (mentor passes)"
+description: "Support for running the five STK120 mentor sessions: whiteboard figures with step-by-step drawing instructions, a running order per session, and past exam questions with model answers, flagged by how well they separated passing and failing students. In Swedish."
+date: 2026-10-02
+image: ../images/stk120.png
+categories: [Regression, Dummy Variables, Hypothesis Testing, LPM, Panel Data, Mentoring]
+---
+
+*Inspired by the course Statistik: Grundkurs 2 Regressionsanalys (STK120) at the School of Business, Economics and Law, Gothenburg University.*
+
+[Open tool](https://johlobs.github.io/STK120-Regressionsanalys/){.btn .btn-primary target="_blank"}
