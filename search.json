@@ -14,6 +14,20 @@
     "text": "Inspired by the course Bayesian Methods at Sahlgrenska Academy, Gothenburg University.\nOpen tool"
   },
   {
+    "objectID": "tools/sta240.html",
+    "href": "tools/sta240.html",
+    "title": "STA240 — Advanced Statistical Methods",
+    "section": "",
+    "text": "Inspired by the course Advanced Statistical Methods at the Department of Statistics, Gothenburg University.\nOpen tool"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pedagogical Tools",
+    "section": "",
+    "text": "STK120 — Regressionsanalys (mentor passes)\n\n\n\nRegression\n\nDummy Variables\n\nHypothesis Testing\n\nLPM\n\nPanel Data\n\nMentoring\n\n\n\nSupport for running the five STK120 mentor sessions: whiteboard figures with step-by-step drawing instructions, a running order per session, and past exam questions with…\n\n\n\n\n\n\n\n\n\n\n\n\nSTA510 — Bayesian Methods\n\n\n\nBayesian Statistics\n\nMCMC\n\nbrms\n\nHierarchical Models\n\nGLMM\n\nWebR\n\n\n\nPriors, conjugate updating, MCMC and brms, posterior predictive checks, LOO and stacking, hierarchical models and the Bayesian workflow. Browser exercises, brms tasks with…\n\n\n\n\n\n\n\n\n\n\n\n\nSTA520 — Molecular Epidemiology\n\n\n\nGenetics\n\nGWAS\n\nMendelian Randomization\n\nMultiple Testing\n\nProteomics\n\nWebR\n\n\n\nFrom DNA and mutations through GWAS and Mendelian randomization to omics and proteomics. Exam-flagged topics, a progress dashboard, randomised calculation drills…\n\n\n\n\n\n\n\n\n\n\n\n\nSTA230 — Statistical Learning\n\n\n\nClassification\n\nLASSO\n\nRandom Forests\n\nXGBoost\n\nPCA\n\nWebR\n\n\n\nClassification, regression regularisation, and unsupervised learning. Interactive concept blocks, quizzes, and live R code — no installation needed.\n\n\n\n\n\n\n\n\n\n\n\n\nSTA240 — Advanced Statistical Methods\n\n\n\nMixed Models\n\nMultinomial Regression\n\nOrdinal Regression\n\nWebR\n\n\n\nInteractive case studies covering mixed models, multinomial regression, and ordinal regression. Run live R code directly in the browser — no installation needed.\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "tools/sta230.html",
     "href": "tools/sta230.html",
     "title": "STA230 — Statistical Learning",
@@ -21,18 +35,11 @@
     "text": "Inspired by the course Statistical Learning at the Department of Statistics, Gothenburg University.\nOpen tool"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pedagogical Tools",
+    "objectID": "tools/stk120.html",
+    "href": "tools/stk120.html",
+    "title": "STK120 — Regressionsanalys (mentor passes)",
     "section": "",
-    "text": "STA510 — Bayesian Methods\n\n\n\nBayesian Statistics\n\nMCMC\n\nbrms\n\nHierarchical Models\n\nGLMM\n\nWebR\n\n\n\nPriors, conjugate updating, MCMC and brms, posterior predictive checks, LOO and stacking, hierarchical models and the Bayesian workflow. Browser exercises, brms tasks with…\n\n\n\n\n\n\n\n\n\n\n\n\nSTA520 — Molecular Epidemiology\n\n\n\nGenetics\n\nGWAS\n\nMendelian Randomization\n\nMultiple Testing\n\nProteomics\n\nWebR\n\n\n\nFrom DNA and mutations through GWAS and Mendelian randomization to omics and proteomics. Exam-flagged topics, a progress dashboard, randomised calculation drills…\n\n\n\n\n\n\n\n\n\n\n\n\nSTA230 — Statistical Learning\n\n\n\nClassification\n\nLASSO\n\nRandom Forests\n\nXGBoost\n\nPCA\n\nWebR\n\n\n\nClassification, regression regularisation, and unsupervised learning. Interactive concept blocks, quizzes, and live R code — no installation needed.\n\n\n\n\n\n\n\n\n\n\n\n\nSTA240 — Advanced Statistical Methods\n\n\n\nMixed Models\n\nMultinomial Regression\n\nOrdinal Regression\n\nWebR\n\n\n\nInteractive case studies covering mixed models, multinomial regression, and ordinal regression. Run live R code directly in the browser — no installation needed.\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "tools/sta240.html",
-    "href": "tools/sta240.html",
-    "title": "STA240 — Advanced Statistical Methods",
-    "section": "",
-    "text": "Inspired by the course Advanced Statistical Methods at the Department of Statistics, Gothenburg University.\nOpen tool"
+    "text": "Inspired by the course Statistik: Grundkurs 2 Regressionsanalys (STK120) at the School of Business, Economics and Law, Gothenburg University.\nOpen tool"
   },
   {
     "objectID": "tools/sta520.html",

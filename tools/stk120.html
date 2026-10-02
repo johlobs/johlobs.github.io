@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-10-02">
+<meta name="description" content="Support for running the five STK120 mentor sessions: whiteboard figures with step-by-step drawing instructions, a running order per session, and past exam questions with model answers, flagged by how well they separated passing and failing students. In Swedish.">
 
-<title>Pedagogical Tools – Statistical Learning Tools</title>
+<title>STK120 — Regressionsanalys (mentor passes) – Statistical Learning Tools</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +31,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7100700a5d4657facf49b32369185e6d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-7100700a5d4657facf49b32369185e6d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,77 +75,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="../custom.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Statistical Learning Tools</span>
     </a>
   </div>
@@ -156,11 +98,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -171,25 +113,42 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QmF5ZXNpYW4lMjBTdGF0aXN0aWNz">Bayesian Statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YnJtcw==">brms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2xhc3NpZmljYXRpb24=">Classification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RHVtbXklMjBWYXJpYWJsZXM=">Dummy Variables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXRpY3M=">Genetics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R0xNTQ==">GLMM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R1dBUw==">GWAS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGllcmFyY2hpY2FsJTIwTW9kZWxz">Hierarchical Models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SHlwb3RoZXNpcyUyMFRlc3Rpbmc=">Hypothesis Testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TEFTU08=">LASSO <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TFBN">LPM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TUNNQw==">MCMC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVuZGVsaWFuJTIwUmFuZG9taXphdGlvbg==">Mendelian Randomization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVudG9yaW5n">Mentoring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWl4ZWQlMjBNb2RlbHM=">Mixed Models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TXVsdGlub21pYWwlMjBSZWdyZXNzaW9u">Multinomial Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TXVsdGlwbGUlMjBUZXN0aW5n">Multiple Testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3JkaW5hbCUyMFJlZ3Jlc3Npb24=">Ordinal Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGFuZWwlMjBEYXRh">Panel Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UENB">PCA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvdGVvbWljcw==">Proteomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmFuZG9tJTIwRm9yZXN0cw==">Random Forests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVncmVzc2lvbg==">Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2ViUg==">WebR <span class="quarto-category-count">(4)</span></div><div class="category" data-category="WEdCb29zdA==">XGBoost <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Pedagogical Tools</h1>
-<p class="subtitle lead">Interactive learning resources for statistics courses at Gothenburg University</p>
+<h1 class="title">STK120 — Regressionsanalys (mentor passes)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Regression</div>
+    <div class="quarto-category">Dummy Variables</div>
+    <div class="quarto-category">Hypothesis Testing</div>
+    <div class="quarto-category">LPM</div>
+    <div class="quarto-category">Panel Data</div>
+    <div class="quarto-category">Mentoring</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Support for running the five STK120 mentor sessions: whiteboard figures with step-by-step drawing instructions, a running order per session, and past exam questions with model answers, flagged by how well they separated passing and failing students. In Swedish.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 2, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -199,166 +158,12 @@ window.Quarto = {
 </header>
 
 
+<p><em>Inspired by the course Statistik: Grundkurs 2 Regressionsanalys (STK120) at the School of Business, Economics and Law, Gothenburg University.</em></p>
+<p><a href="https://johlobs.github.io/STK120-Regressionsanalys/" class="btn btn-primary" target="_blank">Open tool</a></p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UmVncmVzc2lvbiUyQ0R1bW15JTIwVmFyaWFibGVzJTJDSHlwb3RoZXNpcyUyMFRlc3RpbmclMkNMUE0lMkNQYW5lbCUyMERhdGElMkNNZW50b3Jpbmc=" data-listing-date-sort="1790899200000" data-listing-file-modified-sort="1790945371048" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<a href="./tools/stk120.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/stk120.png" class="thumbnail-image card-img" style="height: 180px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-STK120 — Regressionsanalys (mentor passes)
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVncmVzc2lvbg=='); return false;">Regression</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RHVtbXklMjBWYXJpYWJsZXM='); return false;">Dummy Variables</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SHlwb3RoZXNpcyUyMFRlc3Rpbmc='); return false;">Hypothesis Testing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TFBN'); return false;">LPM</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFuZWwlMjBEYXRh'); return false;">Panel Data</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWVudG9yaW5n'); return false;">Mentoring</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Support for running the five STK120 mentor sessions: whiteboard figures with step-by-step drawing instructions, a running order per session, and past exam questions with…</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="QmF5ZXNpYW4lMjBTdGF0aXN0aWNzJTJDTUNNQyUyQ2JybXMlMkNIaWVyYXJjaGljYWwlMjBNb2RlbHMlMkNHTE1NJTJDV2ViUg==" data-listing-date-sort="1790208000000" data-listing-file-modified-sort="1790945371048" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
-<a href="./tools/sta510.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/sta510.png" class="thumbnail-image card-img" style="height: 180px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-STA510 — Bayesian Methods
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QmF5ZXNpYW4lMjBTdGF0aXN0aWNz'); return false;">Bayesian Statistics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TUNNQw=='); return false;">MCMC</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YnJtcw=='); return false;">brms</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SGllcmFyY2hpY2FsJTIwTW9kZWxz'); return false;">Hierarchical Models</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R0xNTQ=='); return false;">GLMM</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V2ViUg=='); return false;">WebR</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Priors, conjugate updating, MCMC and brms, posterior predictive checks, LOO and stacking, hierarchical models and the Bayesian workflow. Browser exercises, brms tasks with…</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="R2VuZXRpY3MlMkNHV0FTJTJDTWVuZGVsaWFuJTIwUmFuZG9taXphdGlvbiUyQ011bHRpcGxlJTIwVGVzdGluZyUyQ1Byb3Rlb21pY3MlMkNXZWJS" data-listing-date-sort="1790121600000" data-listing-file-modified-sort="1790945371048" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
-<a href="./tools/sta520.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/sta520.png" class="thumbnail-image card-img" style="height: 180px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-STA520 — Molecular Epidemiology
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXRpY3M='); return false;">Genetics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R1dBUw=='); return false;">GWAS</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWVuZGVsaWFuJTIwUmFuZG9taXphdGlvbg=='); return false;">Mendelian Randomization</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TXVsdGlwbGUlMjBUZXN0aW5n'); return false;">Multiple Testing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJvdGVvbWljcw=='); return false;">Proteomics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V2ViUg=='); return false;">WebR</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>From DNA and mutations through GWAS and Mendelian randomization to omics and proteomics. Exam-flagged topics, a progress dashboard, randomised calculation drills…</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Q2xhc3NpZmljYXRpb24lMkNMQVNTTyUyQ1JhbmRvbSUyMEZvcmVzdHMlMkNYR0Jvb3N0JTJDUENBJTJDV2ViUg==" data-listing-date-sort="1776729600000" data-listing-file-modified-sort="1790945371047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
-<a href="./tools/sta230.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/sta230.png" class="thumbnail-image card-img" style="height: 180px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-STA230 — Statistical Learning
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xhc3NpZmljYXRpb24='); return false;">Classification</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TEFTU08='); return false;">LASSO</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmFuZG9tJTIwRm9yZXN0cw=='); return false;">Random Forests</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('WEdCb29zdA=='); return false;">XGBoost</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UENB'); return false;">PCA</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V2ViUg=='); return false;">WebR</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Classification, regression regularisation, and unsupervised learning. Interactive concept blocks, quizzes, and live R code — no installation needed.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="TWl4ZWQlMjBNb2RlbHMlMkNNdWx0aW5vbWlhbCUyMFJlZ3Jlc3Npb24lMkNPcmRpbmFsJTIwUmVncmVzc2lvbiUyQ1dlYlI=" data-listing-date-sort="1776384000000" data-listing-file-modified-sort="1790945371048" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
-<a href="./tools/sta240.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/sta240.png" class="thumbnail-image card-img" style="height: 180px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-STA240 — Advanced Statistical Methods
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWl4ZWQlMjBNb2RlbHM='); return false;">Mixed Models</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TXVsdGlub21pYWwlMjBSZWdyZXNzaW9u'); return false;">Multinomial Regression</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3JkaW5hbCUyMFJlZ3Jlc3Npb24='); return false;">Ordinal Regression</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V2ViUg=='); return false;">WebR</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Interactive case studies covering mixed models, multinomial regression, and ordinal regression. Run live R code directly in the browser — no installation needed.</p>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
