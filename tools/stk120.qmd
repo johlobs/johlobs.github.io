@@ -1,5 +1,5 @@
 ---
-title: "STK120 — Regressionsanalys (mentor passes)"
+title: "STK120 — Regressionsanalys (mentor sessions)"
 description: "Support for running the five STK120 mentor sessions: whiteboard figures with step-by-step drawing instructions, a running order per session, and past exam questions with model answers, flagged by how well they separated passing and failing students. In Swedish."
 date: 2026-10-02
 image: ../images/stk120.png
