@@ -1,0 +1,11 @@
+---
+title: "STA530 — Spatial Epidemiology"
+description: "From spatial data and disease maps through Moran's I and LISA to spatial regression (SAR, SEM) and Bayesian disease mapping (BYM2). Objective-flagged topics, a progress dashboard, randomised drills (SMR, Empirical Bayes, Moran's I, SAR impacts) and live R code in the browser."
+date: 2026-10-09
+image: ../images/sta530.png
+categories: [Spatial Epidemiology, Disease Mapping, Spatial Autocorrelation, Spatial Regression, Bayesian, WebR]
+---
+
+*Inspired by the course Spatial Epidemiology at Sahlgrenska Academy, Gothenburg University.*
+
+[Open tool](https://johlobs.github.io/STA530-Spatial-Epidemiology/){.btn .btn-primary target="_blank"}
