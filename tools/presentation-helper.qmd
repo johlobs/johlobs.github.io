@@ -1,0 +1,9 @@
+---
+title: "Presentation helper"
+description: "Prepare a talk from your own PowerPoint file. Group and reorder slides, budget the time against your slot, decide keep, maybe or cut with a reason, and edit or dictate speaker notes. Saves the new order, sections, hidden slides and notes back into the pptx. Everything runs and stays in your browser."
+date: 2026-10-30
+image: ../images/presentation-helper.png
+categories: [Presentations, Speaker Notes, Dictation, Planning]
+---
+
+[Open tool](https://johlobs.github.io/presentation-helper/){.btn .btn-primary target="_blank"}
