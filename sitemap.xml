@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://johlobs.github.io/about.html</loc>
-    <lastmod>2026-10-09T09:45:37.595Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johlobs.github.io/tools/sta510.html</loc>
-    <lastmod>2026-10-09T09:45:37.600Z</lastmod>
+    <loc>https://johlobs.github.io/tools/sta230.html</loc>
+    <lastmod>2026-10-30T20:49:12.144Z</lastmod>
   </url>
   <url>
     <loc>https://johlobs.github.io/tools/sta240.html</loc>
-    <lastmod>2026-10-09T09:45:37.600Z</lastmod>
+    <lastmod>2026-10-30T20:49:12.144Z</lastmod>
   </url>
   <url>
-    <loc>https://johlobs.github.io/tools/sta230.html</loc>
-    <lastmod>2026-10-09T09:45:37.599Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johlobs.github.io/index.html</loc>
-    <lastmod>2026-10-09T09:45:37.599Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johlobs.github.io/tools/sta530.html</loc>
-    <lastmod>2026-10-09T09:45:37.600Z</lastmod>
+    <loc>https://johlobs.github.io/tools/presentation-helper.html</loc>
+    <lastmod>2026-10-30T20:49:12.143Z</lastmod>
   </url>
   <url>
     <loc>https://johlobs.github.io/tools/stk120.html</loc>
-    <lastmod>2026-10-09T09:45:37.600Z</lastmod>
+    <lastmod>2026-10-30T20:49:12.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johlobs.github.io/index.html</loc>
+    <lastmod>2026-10-30T20:49:12.143Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johlobs.github.io/about.html</loc>
+    <lastmod>2026-10-30T20:49:12.141Z</lastmod>
   </url>
   <url>
     <loc>https://johlobs.github.io/tools/sta520.html</loc>
-    <lastmod>2026-10-09T09:45:37.600Z</lastmod>
+    <lastmod>2026-10-30T20:49:12.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johlobs.github.io/tools/sta510.html</loc>
+    <lastmod>2026-10-30T20:49:12.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johlobs.github.io/tools/sta530.html</loc>
+    <lastmod>2026-10-30T20:49:12.144Z</lastmod>
   </url>
 </urlset>
